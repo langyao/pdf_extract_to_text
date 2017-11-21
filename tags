@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC      = g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS  = -g -Wall $/;"	m
+LEX_H__	inc/lex.h	10;"	d
+MALLOC	utils/comm.h	7;"	d
+MAX	utils/comm.h	13;"	d
+MAXLINE	utils/err_handle.c	13;"	d	file:
+MIN	utils/comm.h	14;"	d
+PDF_TCARRAY	inc/pdf.h	/^    PDF_TOARRAY,PDF_TCARRAY,$/;"	e	enum:__anon1
+PDF_TCDICT	inc/pdf.h	/^    PDF_TODICT,PDF_TCDICT$/;"	e	enum:__anon1
+PDF_TEOF	inc/pdf.h	/^    PDF_TERROR,PDF_TEOF,$/;"	e	enum:__anon1
+PDF_TERROR	inc/pdf.h	/^    PDF_TERROR,PDF_TEOF,$/;"	e	enum:__anon1
+PDF_TOARRAY	inc/pdf.h	/^    PDF_TOARRAY,PDF_TCARRAY,$/;"	e	enum:__anon1
+PDF_TODICT	inc/pdf.h	/^    PDF_TODICT,PDF_TCDICT$/;"	e	enum:__anon1
+SOURCE	Makefile	/^SOURCE = $(wildcard src\/*.c) $(wildcard utils\/*.c) $(wildcard src\/*.cpp) $(wildcard utils\/*.cpp)  $/;"	m
+TARGET	Makefile	/^TARGET = main$/;"	m
+_COMM_H_	utils/comm.h	2;"	d
+_ERROR_HANDLE_	utils/err_handle.h	2;"	d
+_PDF_H_HEADER	inc/pdf.h	2;"	d
+alloc	utils/comm.cpp	/^void *alloc(size_t size)$/;"	f
+bp	inc/pdf.h	/^    unsigned char *bp,*rp,*wp,*ep;$/;"	m	struct:pdf_stream_s
+buf	inc/pdf.h	/^    unsigned char buf[4096];$/;"	m	struct:pdf_stream_s
+close	inc/pdf.h	/^    void (*close)(pdf_stream *stm);$/;"	m	struct:pdf_stream_s
+closefile	src/stm_open.cpp	/^static void closefile(pdf_stream *stm)$/;"	f	file:
+daemon_proc	utils/err_handle.c	/^int daemon_proc  = 0;  \/\/若该全局变量不为0，则出错消息按指定的日志级别传给syslog,否则打在标准输出上$/;"	v
+doctile	inc/pdf.h	/^    char *doctile;$/;"	m	struct:pdf_s
+ep	inc/pdf.h	/^    unsigned char *bp,*rp,*wp,*ep;$/;"	m	struct:pdf_stream_s
+err_abort	utils/err_handle.c	/^err_abort(const char *fmt,...)$/;"	f
+err_doit	utils/err_handle.c	/^static void err_doit(int errnoflag,int level,const char *fmt,va_list ap)$/;"	f	file:
+err_msg	utils/err_handle.c	/^err_msg(const char *fmt,...)$/;"	f
+err_quit	utils/err_handle.c	/^void err_quit(const char *fmt,...)$/;"	f
+err_ret	utils/err_handle.c	/^err_ret(const char *fmt,...)$/;"	f
+err_sys	utils/err_handle.c	/^err_sys(const char *fmt,...)$/;"	f
+fd	inc/pdf.h	/^    int  fd;$/;"	m	struct:pdf_stream_s
+file	inc/pdf.h	/^    pdf_stream *file;$/;"	m	struct:pdf_xref_s
+filesize	inc/pdf.h	/^    int filesize;$/;"	m	struct:pdf_xref_s
+find_string	myread.cpp	/^string::size_type  find_string(ifstream &in,string &s)$/;"	f
+iswhite	utils/comm.cpp	/^bool iswhite(int ch)$/;"	f
+len	inc/pdf.h	/^    int len;$/;"	m	struct:pdf_xref_s
+main	helloc.cpp	/^int main(void)$/;"	f
+main	src/main.cpp	/^int main(void)$/;"	f
+malloc	utils/comm.cpp	5;"	d	file:
+malloc	utils/comm.h	6;"	d
+pagecount	inc/pdf.h	/^    int pagecount;$/;"	m	struct:pdf_s
+pageobjs	inc/pdf.h	/^    pdf_obj **pageobjs;$/;"	m	struct:pdf_xref_s
+pagerefs	inc/pdf.h	/^    pdf_obj **pagerefs;$/;"	m	struct:pdf_xref_s
+pdf_fillbuffer	src/stm_read.cpp	/^void pdf_fillbuffer(pdf_stream *stm)$/;"	f
+pdf_loadVersion	src/pdf_xref.cpp	/^int pdf_loadVersion(pdf_xref *pdfxref)$/;"	f
+pdf_obj	inc/pdf.h	/^struct pdf_obj$/;"	s
+pdf_openfile	src/stm_open.cpp	/^pdf_stream *pdf_openfile(int fd)$/;"	f
+pdf_openxrefwithstream	src/pdf_xref.cpp	/^int pdf_openxrefwithstream(pdf_xref *pdfxref,pdf_stream *file)$/;"	f
+pdf_readline	src/stm_read.cpp	/^void pdf_readline(pdf_stream *stm,char *mem, int n)$/;"	f
+pdf_readstartxref	src/pdf_xref.cpp	/^int pdf_readstartxref(pdf_xref *pdfxref)$/;"	f
+pdf_readtrailer	src/pdf_xref.cpp	/^int pdf_readtrailer(pdf_xref *pdfxref,char *buf,int bufSize)$/;"	f
+pdf_s	inc/pdf.h	/^typedef struct pdf_s$/;"	s
+pdf_s	inc/pdf.h	/^}pdf_s;$/;"	t	typeref:struct:pdf_s
+pdf_stream	inc/pdf.h	/^typedef struct pdf_stream_s pdf_stream;$/;"	t	typeref:struct:pdf_stream_s
+pdf_stream	inc/pdf.h	/^}pdf_stream;$/;"	t	typeref:struct:pdf_stream_s
+pdf_stream_s	inc/pdf.h	/^typedef struct pdf_stream_s$/;"	s
+pdf_strsep	src/pdf_xref.cpp	/^void pdf_strsep(char *s,char *delim,char *p[64])$/;"	f
+pdf_tell	src/stm_read.cpp	/^int pdf_tell(pdf_stream *stm)$/;"	f
+pdf_xref	inc/pdf.h	/^typedef struct pdf_xref_s pdf_xref;$/;"	t	typeref:struct:pdf_xref_s
+pdf_xref_s	inc/pdf.h	/^struct pdf_xref_s$/;"	s
+pos	inc/pdf.h	/^    int pos;$/;"	m	struct:pdf_stream_s
+read	inc/pdf.h	/^    int (*read)(pdf_stream *stm,unsigned char *buf,int len);$/;"	m	struct:pdf_stream_s
+read_byte	inc/pdf.h	/^static inline int read_byte(pdf_stream *stm)$/;"	f
+read_peerbyte	inc/pdf.h	/^static inline int read_peerbyte(pdf_stream *stm)$/;"	f
+readfile	src/stm_open.cpp	/^static int readfile(pdf_stream *stm,unsigned char *buf,int len)$/;"	f	file:
+refs	inc/pdf.h	/^    int refs;$/;"	m	struct:pdf_stream_s
+rp	inc/pdf.h	/^    unsigned char *bp,*rp,*wp,*ep;$/;"	m	struct:pdf_stream_s
+scratch	inc/pdf.h	/^    char scratch[65536];$/;"	m	struct:pdf_xref_s
+seek	inc/pdf.h	/^    void (*seek)(pdf_stream *stm, int offset, int whence);$/;"	m	struct:pdf_stream_s
+seekfile	src/stm_open.cpp	/^static void seekfile(pdf_stream *stm, int offset, int whence)$/;"	f	file:
+startxref	inc/pdf.h	/^    int startxref;$/;"	m	struct:pdf_xref_s
+state	inc/pdf.h	/^    void *state;$/;"	m	struct:pdf_stream_s
+trailer	inc/pdf.h	/^    pdf_obj *trailer;$/;"	m	struct:pdf_xref_s
+version	inc/pdf.h	/^    int version;$/;"	m	struct:pdf_xref_s
+wp	inc/pdf.h	/^    unsigned char *bp,*rp,*wp,*ep;$/;"	m	struct:pdf_stream_s
+xref	inc/pdf.h	/^    pdf_xref *xref;$/;"	m	struct:pdf_s

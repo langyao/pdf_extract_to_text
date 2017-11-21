@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ISDELIM	lex.cpp	13;"	d	file:
+ISHEX	lex.cpp	8;"	d	file:
+ISNUMBER	lex.cpp	3;"	d	file:
+ISWHITE	lex.cpp	6;"	d	file:
+RANGE_0_9	lex.cpp	17;"	d	file:
+RANGE_A_F	lex.cpp	22;"	d	file:
+RANGE_a_f	lex.cpp	20;"	d	file:
+closefile	stm_open.cpp	/^static void closefile(pdf_stream *stm)$/;"	f	file:
+lexname	lex.cpp	/^static void lexname(pdf_stream *f,char *s, int n)$/;"	f	file:
+lexwhite	lex.cpp	/^static inline void lexwhite(pdf_stream *f)$/;"	f	file:
+main	main.cpp	/^int main(void)$/;"	f
+pdf_fillbuffer	stm_read.cpp	/^void pdf_fillbuffer(pdf_stream *stm)$/;"	f
+pdf_lex	lex.cpp	/^int pdf_lex(int tok,pdf_stream *f,char *buf,int bufSize,int n)$/;"	f
+pdf_loadVersion	pdf_xref.cpp	/^int pdf_loadVersion(pdf_xref *pdfxref)$/;"	f
+pdf_openfile	stm_open.cpp	/^pdf_stream *pdf_openfile(int fd)$/;"	f
+pdf_openxrefwithstream	pdf_xref.cpp	/^int pdf_openxrefwithstream(pdf_xref *pdfxref,pdf_stream *file)$/;"	f
+pdf_readline	stm_read.cpp	/^void pdf_readline(pdf_stream *stm,char *mem, int n)$/;"	f
+pdf_readstartxref	pdf_xref.cpp	/^int pdf_readstartxref(pdf_xref *pdfxref)$/;"	f
+pdf_readtrailer	pdf_xref.cpp	/^int pdf_readtrailer(pdf_xref *pdfxref,char *buf,int bufSize)$/;"	f
+pdf_seek	stm_read.cpp	/^void pdf_seek(pdf_stream *stm,int offset, int whence)$/;"	f
+pdf_strsep	pdf_xref.cpp	/^void pdf_strsep(char *s,char *delim,char *p[64])$/;"	f
+pdf_tell	stm_read.cpp	/^int pdf_tell(pdf_stream *stm)$/;"	f
+pdf_tokenfromkeyword	lex.cpp	/^static int pdf_tokenfromkeyword(char key)$/;"	f	file:
+readfile	stm_open.cpp	/^static int readfile(pdf_stream *stm,unsigned char *buf,int len)$/;"	f	file:
+seekfile	stm_open.cpp	/^static void seekfile(pdf_stream *stm, int offset, int whence)$/;"	f	file:
